@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: black; */
+      background-image:url(./yellow.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+video{
+    float: left;
+    margin-top:30px;
+    margin-left:-170px;
+    position: sticky;
+    width:90%;
+    height: 500px;
+
+   
+}
+#main{
+    display: flex;
+   list-style: none;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    font-family:monospace;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: transparent;
+    color: rgb(241, 43, 17);
+}
+button:hover{
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    font-family:monospace;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(241, 43, 17);
+    border-width:2px;
+}
+#fo{
+    margin-top: 40px;
+    margin-left: -200px;
+    width: 30%;
+    height: 500px;
+    float:left;
+    background-color:transparent;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width:3px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+#login-em{
+    margin-top: 50px;
+    margin-left: 33px;
+    width: 50%;
+    height: 30px; 
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(241, 43, 17);
+    border-width:2px;
+}
+#login-ps{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 50%;
+    height: 30px; 
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(241, 43, 17);
+    border-width:2px;
+}
+label{
+    margin-left: 70px;
+}
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(241, 43, 17); ;
+}
+#lo{
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(241, 43, 17);
+    border-width:2px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#fi{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 70%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#or{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    color: red;
+}
+#i i{
+    margin-top: 10px;
+    margin-left:200px;
+     color:red;
+    
+}
+#f i{
+    margin-top: 10px;
+    margin-left:10px;
+     color: red;
+    
+}
+#g i{
+    margin-top: 10px;
+    margin-left:10px;
+    color:red;
+    
+}
+#options{
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-left: 40px;
+    
+}
+#for a{
+    text-decoration: none;
+    color: black;
+    margin-left: 120px;
+    padding-left: 40px;
+}
+#email_error{
+  color: red;
+    margin:90px;
+    padding-left: 60px;
+}
+#pass_error{
+    color: red;
+    margin:90px;
+    padding-left: 60px;
+    
+
+}
+
